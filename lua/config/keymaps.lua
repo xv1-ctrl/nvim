@@ -1,7 +1,7 @@
 local keymap = vim.keymap
 
--- movement remapping <3
-set whichwrap+=h,l
+-- movement remapping (current completely breaks config)
+-- set whichwrap+=<,>,[,]
 
 -- plugins
 keymap.set("n", "<leader>lu", ":Lazy update<CR>", { silent = true} )
