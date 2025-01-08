@@ -15,7 +15,10 @@ keymap.set("n", "<leader>tt", ":TransparentToggle<CR>", {silent = true })
 keymap.set("n", "<leader>z", ":ZenMode<CR>", {silent = true})
 
 -- multi pane nav
--- figure out later
+vim.keymap.set('n', '<C-k>', ':wincmd k<CR>', { silent = true })
+vim.keymap.set('n', '<C-j>', ':wincmd j<CR>', { silent = true })
+vim.keymap.set('n', '<C-h>', ':wincmd h<CR>', { silent = true })
+vim.keymap.set('n', '<C-l>', ':wincmd l<CR>', { silent = true })
 
 -- window splitting
 keymap.set("n", "<leader>sv", ":vsplit<CR>", {silent = true})
