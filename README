@@ -1,1 +1,40 @@
 Neovim Config
+-------------
+File Structure
+├── init.lua
+├── lazy-lock.json
+├── lua
+│   ├── config
+│   │   ├── globals.lua
+│   │   ├── init.lua
+│   │   ├── keymaps.lua
+│   │   └── options.lua
+│   ├── plugins
+│   │   ├── alpha-config.lua
+│   │   ├── alpha.lua
+│   │   ├── blink-cmp.lua
+│   │   ├── colorscheme.lua
+│   │   ├── comment.lua
+│   │   ├── dev-icons.lua
+│   │   ├── highlight-yank.lua
+│   │   ├── illuminate.lua
+│   │   ├── indent-line.lua
+│   │   ├── init.lua
+│   │   ├── lspconfig.lua
+│   │   ├── lualine.lua
+│   │   ├── markdown.lua
+│   │   ├── mason-lspconfig.lua
+│   │   ├── mason.lua
+│   │   ├── noice.lua
+│   │   ├── nvim-tree.lua
+│   │   ├── snow.lua
+│   │   ├── telescope.lua
+│   │   ├── tetris.lua
+│   │   ├── transparent.lua
+│   │   ├── treesitter.lua
+│   │   ├── whichkey.lua
+│   │   └── zen.lua
+│   └── util
+│       ├── icons.lua
+│       └── lsp.lua
+└── static
