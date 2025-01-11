@@ -27,7 +27,7 @@ File Structure
 │   │   ├── mason.lua
 │   │   ├── noice.lua
 │   │   ├── nvim-tree.lua
-│   │   ├── snow.lua
+│   |   ├── sudoku.lua
 │   │   ├── telescope.lua
 │   │   ├── tetris.lua
 │   │   ├── transparent.lua
